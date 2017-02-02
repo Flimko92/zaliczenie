@@ -1,0 +1,1855 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "sites",
+      "model": "site"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "artykuly_bhp",
+      "model": "przydzial"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "artykuly_bhp",
+      "model": "produkty"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "pracownicy",
+      "model": "course"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "pracownicy",
+      "model": "worker"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "szkolenia",
+      "model": "instruction"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "szkolenia",
+      "model": "documentation"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "account",
+      "model": "emailconfirmation"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 15,
+   "fields": {
+      "app_label": "account",
+      "model": "emailaddress"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 16,
+   "fields": {
+      "app_label": "socialaccount",
+      "model": "socialapp"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 17,
+   "fields": {
+      "app_label": "socialaccount",
+      "model": "socialaccount"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 18,
+   "fields": {
+      "app_label": "socialaccount",
+      "model": "socialtoken"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 19,
+   "fields": {
+      "app_label": "lista_zadan",
+      "model": "alert"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "gqvb5n09bq1giw3bsj3o7a76hoem6r9v",
+   "fields": {
+      "session_data": "NjNhNWQ4Njg2ZTQyYzk1YTYwZWM4YzY1MzEzN2QzZDlkM2U5NWQ1Nzp7Il9zZXNzaW9uX2V4cGlyeSI6MCwiX2F1dGhfdXNlcl9oYXNoIjoiNzNmMWVjMDExM2VhZjcyZGYwZjhjNmYwNGEwN2Q1MjZkNjQzNDgxNSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==",
+      "expire_date": "2017-02-15T16:05:06.189Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "mpn639g82z9pzeoxucun7codt9k7iw34",
+   "fields": {
+      "session_data": "NDQzYmU5NjA4MzFmNDU4Y2EzNmEwMmU0NGEzMThlYzg5Yzk1Y2QxYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjczZjFlYzAxMTNlYWY3MmRmMGY4YzZmMDRhMDdkNTI2ZDY0MzQ4MTUiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-02-16T10:42:34.013Z"
+   }
+},
+{
+   "model": "sites.site",
+   "pk": 1,
+   "fields": {
+      "domain": "example.com",
+      "name": "example.com"
+   }
+},
+{
+   "model": "lista_zadan.alert",
+   "pk": 1,
+   "fields": {
+      "braki_magazynowe": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6
+      ],
+      "nadchodzace_szkolenia": [
+         2,
+         1,
+         8,
+         9,
+         6,
+         7,
+         4,
+         10,
+         5,
+         3
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 1,
+   "fields": {
+      "name": "R\u0119kawiczki",
+      "count": 5,
+      "exp_date": "2017-03-09"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 2,
+   "fields": {
+      "name": "Buty",
+      "count": 4,
+      "exp_date": "2017-02-01"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 3,
+   "fields": {
+      "name": "Gogle ochronne",
+      "count": 300,
+      "exp_date": "2019-05-02"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 4,
+   "fields": {
+      "name": "Fartuch ochronny",
+      "count": 70,
+      "exp_date": "2050-02-02"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 5,
+   "fields": {
+      "name": "Zatyczki do uszu",
+      "count": 5000,
+      "exp_date": "2019-09-02"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 6,
+   "fields": {
+      "name": "Spodnie robocze",
+      "count": 3,
+      "exp_date": "2020-02-02"
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 1,
+   "fields": {
+      "who": 1,
+      "when": "2017-01-31",
+      "what": [
+         1
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 2,
+   "fields": {
+      "who": 2,
+      "when": "2017-02-01",
+      "what": [
+         1,
+         2
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 3,
+   "fields": {
+      "who": 2,
+      "when": "2017-02-01",
+      "what": [
+         1
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 4,
+   "fields": {
+      "who": 1,
+      "when": "2017-02-02",
+      "what": [
+         1
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 5,
+   "fields": {
+      "who": 6,
+      "when": "2017-02-02",
+      "what": [
+         3
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 6,
+   "fields": {
+      "who": 3,
+      "when": "2017-02-02",
+      "what": [
+         6
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 7,
+   "fields": {
+      "who": 10,
+      "when": "2017-02-02",
+      "what": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6
+      ]
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 2,
+   "fields": {
+      "instruction": 2,
+      "date_of_instruction": "2017-01-01",
+      "next_instruction": "2017-02-01"
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 3,
+   "fields": {
+      "instruction": 2,
+      "date_of_instruction": "2017-02-02",
+      "next_instruction": "2022-02-02"
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 4,
+   "fields": {
+      "instruction": 4,
+      "date_of_instruction": "2012-02-02",
+      "next_instruction": "2017-02-02"
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 5,
+   "fields": {
+      "instruction": 5,
+      "date_of_instruction": "2014-02-02",
+      "next_instruction": "2017-02-02"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 1,
+   "fields": {
+      "name": "Wst\u0119pna Dokumentacja",
+      "document": "document/Kurs-C-Wst\u0119p-do-Programowania_K6iLI6T.pdf"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 2,
+   "fields": {
+      "name": "Instrukcja stanowisk",
+      "document": "document/VIP_lombard-1.pdf"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 3,
+   "fields": {
+      "name": "Schemat dokumentacji",
+      "document": "document/PRZYK\u0141ADOWA_DOKUMENTACJA_BHP.pdf"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 4,
+   "fields": {
+      "name": "Dokumentacja SZBHP",
+      "document": "document/r10.pdf"
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 2,
+   "fields": {
+      "name": "Szkolenie Stanowiskowe",
+      "duration": "30 00:00:00",
+      "description": "Standardowe szkolenie stanowiskowe",
+      "documentation": [
+         2,
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 3,
+   "fields": {
+      "name": "Szkolenie Wst\u0119pne",
+      "duration": "00:00:00",
+      "description": "Szkolenie wst\u0119pne dzielimy na:\r\n\r\n    Instrukta\u017c og\u00f3lny\u2013 zapewnia uczestnikom poznanie podstawowych przepis\u00f3w BHP zawartych w Kodeksie Pracy, zasad udzielania pierwszej pomocy ale r\u00f3wnie\u017c regulamin\u00f3w i zasad bezpiecze\u0144stwa i higieny pracy w danym zak\u0142adzie pracy. Instrukta\u017c og\u00f3lny mo\u017ce przeprowadzi\u0107 pracownik s\u0142u\u017cby BHP lub inna osoba dzia\u0142aj\u0105ca na zlecenie pracodawcy pe\u0142ni\u0105ca zadania tej s\u0142u\u017cby.\r\n    Instrukta\u017c stanowiskowy zapewnia uczestnikom zapoznanie si\u0119 z czynnika",
+      "documentation": [
+         1
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 4,
+   "fields": {
+      "name": "Szkolenie okresowe 1",
+      "duration": "1825 00:00:00",
+      "description": "Szkolenie okresowe dla pracownika biurowego",
+      "documentation": [
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 5,
+   "fields": {
+      "name": "Szkolenie okresowe 2",
+      "duration": "1095 00:00:00",
+      "description": "Szkolenie okresowe dla pracownika fizycznego",
+      "documentation": [
+         2
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 6,
+   "fields": {
+      "name": "SZkolenie okresowe 3",
+      "duration": "365 00:00:00",
+      "description": "Szkolenie okresowe dla pracownika fizycznego maj\u0105cego doczynienia z substancjami niebezpieczbymi",
+      "documentation": [
+         4
+      ]
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 2,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 2,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 2,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 3,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 3,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 3,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can add site",
+      "content_type": 7,
+      "codename": "add_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can change site",
+      "content_type": 7,
+      "codename": "change_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can delete site",
+      "content_type": 7,
+      "codename": "delete_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can add przydzial",
+      "content_type": 8,
+      "codename": "add_przydzial"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can change przydzial",
+      "content_type": 8,
+      "codename": "change_przydzial"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can delete przydzial",
+      "content_type": 8,
+      "codename": "delete_przydzial"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add produkty",
+      "content_type": 9,
+      "codename": "add_produkty"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change produkty",
+      "content_type": 9,
+      "codename": "change_produkty"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete produkty",
+      "content_type": 9,
+      "codename": "delete_produkty"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can add course",
+      "content_type": 10,
+      "codename": "add_course"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can change course",
+      "content_type": 10,
+      "codename": "change_course"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can delete course",
+      "content_type": 10,
+      "codename": "delete_course"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can add worker",
+      "content_type": 11,
+      "codename": "add_worker"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can change worker",
+      "content_type": 11,
+      "codename": "change_worker"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can delete worker",
+      "content_type": 11,
+      "codename": "delete_worker"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can add instruction",
+      "content_type": 12,
+      "codename": "add_instruction"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can change instruction",
+      "content_type": 12,
+      "codename": "change_instruction"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can delete instruction",
+      "content_type": 12,
+      "codename": "delete_instruction"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add documentation",
+      "content_type": 13,
+      "codename": "add_documentation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change documentation",
+      "content_type": 13,
+      "codename": "change_documentation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete documentation",
+      "content_type": 13,
+      "codename": "delete_documentation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can add email confirmation",
+      "content_type": 14,
+      "codename": "add_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can change email confirmation",
+      "content_type": 14,
+      "codename": "change_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can delete email confirmation",
+      "content_type": 14,
+      "codename": "delete_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can add email address",
+      "content_type": 15,
+      "codename": "add_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can change email address",
+      "content_type": 15,
+      "codename": "change_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can delete email address",
+      "content_type": 15,
+      "codename": "delete_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 46,
+   "fields": {
+      "name": "Can add social application",
+      "content_type": 16,
+      "codename": "add_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 47,
+   "fields": {
+      "name": "Can change social application",
+      "content_type": 16,
+      "codename": "change_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 48,
+   "fields": {
+      "name": "Can delete social application",
+      "content_type": 16,
+      "codename": "delete_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 49,
+   "fields": {
+      "name": "Can add social account",
+      "content_type": 17,
+      "codename": "add_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 50,
+   "fields": {
+      "name": "Can change social account",
+      "content_type": 17,
+      "codename": "change_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 51,
+   "fields": {
+      "name": "Can delete social account",
+      "content_type": 17,
+      "codename": "delete_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 52,
+   "fields": {
+      "name": "Can add social application token",
+      "content_type": 18,
+      "codename": "add_socialtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 53,
+   "fields": {
+      "name": "Can change social application token",
+      "content_type": 18,
+      "codename": "change_socialtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 54,
+   "fields": {
+      "name": "Can delete social application token",
+      "content_type": 18,
+      "codename": "delete_socialtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 55,
+   "fields": {
+      "name": "Can add alert",
+      "content_type": 19,
+      "codename": "add_alert"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 56,
+   "fields": {
+      "name": "Can change alert",
+      "content_type": 19,
+      "codename": "change_alert"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 57,
+   "fields": {
+      "name": "Can delete alert",
+      "content_type": 19,
+      "codename": "delete_alert"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$30000$UpwLlUfw7ST2$qHUZMekh9cMoqkjLhHg4CPIv04s1if3uQ8JhAsJZcao=",
+      "last_login": "2017-02-02T10:42:33.900Z",
+      "is_superuser": true,
+      "username": "sebastian",
+      "first_name": "",
+      "last_name": "",
+      "email": "sebastianpuchala@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2017-01-31T11:24:01.127Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "pbkdf2_sha256$30000$ONPgHHRv8C1l$/bgJ/iUidpqSVEMddWAw5j4k7qZ2DW/xI//eJtWtamE=",
+      "last_login": "2017-02-02T10:39:37.911Z",
+      "is_superuser": false,
+      "username": "Korneliusz",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2017-01-31T13:12:14.444Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 3,
+   "fields": {
+      "password": "pbkdf2_sha256$30000$54xasB8jIXXw$RHfQeUI6rnraDPt51jktTBBS1LOvQZmg9BqOdkAY91g=",
+      "last_login": "2017-02-02T10:42:15.155Z",
+      "is_superuser": false,
+      "username": "magda",
+      "first_name": "",
+      "last_name": "",
+      "email": "magda@magda.pl",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2017-02-02T10:41:29.447Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 1,
+   "fields": {
+      "user": 1,
+      "Name": "Sebastian",
+      "Surname": "Pucha\u0142a",
+      "PESEL": "92100401519",
+      "course": [
+         2
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 2,
+   "fields": {
+      "user": 2,
+      "Name": "Korneliusz",
+      "Surname": "\u0141ukasiak",
+      "PESEL": "93041520193",
+      "course": [
+         2
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 3,
+   "fields": {
+      "user": 2,
+      "Name": "Magdalena",
+      "Surname": "Kocyba",
+      "PESEL": "93041808504",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 4,
+   "fields": {
+      "user": 2,
+      "Name": "Hubert",
+      "Surname": "Matysiak",
+      "PESEL": "12129322222",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 5,
+   "fields": {
+      "user": 2,
+      "Name": "Jan",
+      "Surname": "Kowalski",
+      "PESEL": "56984266246",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 6,
+   "fields": {
+      "user": 1,
+      "Name": "Adam",
+      "Surname": "Nowak",
+      "PESEL": "44541565821",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 7,
+   "fields": {
+      "user": 2,
+      "Name": "Anna",
+      "Surname": "Nowak",
+      "PESEL": "21569547863",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 8,
+   "fields": {
+      "user": 2,
+      "Name": "Jan",
+      "Surname": "Kowalik",
+      "PESEL": "13018722233",
+      "course": [
+         4
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 9,
+   "fields": {
+      "user": 2,
+      "Name": "Janina",
+      "Surname": "Zupa",
+      "PESEL": "09128847472",
+      "course": [
+         5
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 10,
+   "fields": {
+      "user": 2,
+      "Name": "Irmina",
+      "Surname": "Blumstein",
+      "PESEL": "85021897357",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "account.emailaddress",
+   "pk": 1,
+   "fields": {
+      "user": 3,
+      "email": "magda@magda.pl",
+      "verified": false,
+      "primary": true
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2017-01-31T11:30:05.351Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Wst\u0119pna Dokumentacja",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2017-01-31T11:30:09.654Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Szkolenie Wst\u0119pne",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2017-01-31T11:30:52.335Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Szkolenie Wst\u0119pne /odbyte - 2017-01-31 /nast\u0119pne - 2018-01-31",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2017-01-31T11:30:58.234Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Sebastian Pucha\u0142a",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2017-01-31T11:31:29.853Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "R\u0119kawiczki / 2017-03-09",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2017-01-31T11:46:05.610Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "2017-01-31",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2017-01-31T13:10:53.510Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Buty / 2017-02-01",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2017-01-31T13:12:14.628Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Korneliusz",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2017-01-31T13:14:22.346Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Instrukcja stanowisk",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2017-01-31T13:14:26.843Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Szkolenie Stanowiskowe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2017-01-31T13:15:05.071Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Szkolenie Stanowiskowe /odbyte - 2017-01-01 /nast\u0119pne - 2017-02-01",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2017-01-31T13:15:10.099Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Korneliusz \u0141ukasiak",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2017-01-31T13:15:18.119Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "alert object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2017-01-31T15:00:22.495Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Buty / 2017-02-01",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"count\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2017-01-31T16:09:14.521Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "R\u0119kawiczki / 2017-03-09",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"count\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2017-01-31T18:41:36.186Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Szkolenie Wst\u0119pne /odbyte - 2017-01-31 /nast\u0119pne - 2017-03-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"next_instruction\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2017-01-31T19:35:41.212Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Szkolenie Stanowiskowe /odbyte - 2017-01-01 /nast\u0119pne - 2017-01-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"next_instruction\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2017-02-01T11:30:27.925Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Szkolenie Stanowiskowe /odbyte - 2017-01-01 /nast\u0119pne - 2017-02-01",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"next_instruction\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2017-02-01T11:52:10.907Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Szkolenie Wst\u0119pne /odbyte - 2017-01-31 /nast\u0119pne - 2016-03-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"next_instruction\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2017-02-01T12:00:45.682Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Szkolenie Wst\u0119pne /odbyte - 2017-01-31 /nast\u0119pne - 2017-03-31",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"next_instruction\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2017-02-02T10:06:33.788Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Schemat dokumentacji",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2017-02-02T10:07:43.132Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Dokumentacja SZBHP",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2017-02-02T10:10:49.683Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Szkolenie Wst\u0119pne",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2017-02-02T10:13:07.807Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Szkolenie okresowe 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2017-02-02T10:14:16.071Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Szkolenie okresowe 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2017-02-02T10:14:39.657Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Szkolenie okresowe 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"duration\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2017-02-02T10:16:32.807Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "SZkolenie okresowe 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2017-02-02T10:17:10.580Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Szkolenie okresowe 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"duration\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2017-02-02T10:20:20.816Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Szkolenie Stanowiskowe /odbyte - 2017-02-02 /nast\u0119pne - 2022-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2017-02-02T10:20:24.398Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Magdalena Kocyba",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2017-02-02T10:21:45.791Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Hubert Matysiak",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2017-02-02T10:22:21.187Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Jan Kowalski",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2017-02-02T10:23:05.011Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "Adam Nowak",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2017-02-02T10:23:40.251Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "Anna Nowak",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2017-02-02T10:24:45.039Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Szkolenie okresowe 1 /odbyte - 2012-02-02 /nast\u0119pne - 2017-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2017-02-02T10:25:22.360Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "Jan Kowalik",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2017-02-02T10:26:34.396Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Szkolenie okresowe 2 /odbyte - 2014-02-02 /nast\u0119pne - 2017-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2017-02-02T10:26:41.209Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "Janina Zupa",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2017-02-02T10:27:03.192Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Sebastian Pucha\u0142a",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2017-02-02T10:28:24.195Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "10",
+      "object_repr": "Irmina Blumstein",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2017-02-02T10:29:14.529Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Gogle ochronne / 2019-05-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2017-02-02T10:29:51.375Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Fartuch ochronny / 2050-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2017-02-02T10:30:43.451Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Zatyczki do uszu / 2019-09-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2017-02-02T10:31:24.827Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Spodnie robocze / 2020-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2017-02-02T10:32:08.604Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "2017-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2017-02-02T10:32:39.573Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "2017-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2017-02-02T10:33:17.184Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "2017-02-02",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2017-02-02T10:34:19.458Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "alert object",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2017-02-02T10:36:55.343Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Szkolenie okresowe 1",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2017-02-02T10:37:05.290Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "SZkolenie okresowe 3",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2017-02-02T10:37:12.780Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Szkolenie okresowe 1",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2017-02-02T10:37:19.448Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Szkolenie Stanowiskowe",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+}
+]
