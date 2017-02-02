@@ -25,15 +25,4 @@ class Migration(migrations.Migration):
                 ('instruction', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='szkolenia.instruction')),
             ],
         ),
-        migrations.AddField(
-            model_name='worker',
-            name='user',
-            field=models.ForeignKey(default='', on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),
-            preserve_default=False,
-        ),
-        migrations.AddField(
-            model_name='worker',
-            name='course',
-            field=models.ManyToManyField(to='pracownicy.Course'),
-        ),
     ]
