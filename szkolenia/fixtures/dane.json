@@ -1,0 +1,97 @@
+[
+{
+   "model": "szkolenia.documentation",
+   "pk": 1,
+   "fields": {
+      "name": "Wst\u0119pna Dokumentacja",
+      "document": "document/Kurs-C-Wst\u0119p-do-Programowania_K6iLI6T.pdf"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 2,
+   "fields": {
+      "name": "Instrukcja stanowisk",
+      "document": "document/VIP_lombard-1.pdf"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 3,
+   "fields": {
+      "name": "Schemat dokumentacji",
+      "document": "document/PRZYK\u0141ADOWA_DOKUMENTACJA_BHP.pdf"
+   }
+},
+{
+   "model": "szkolenia.documentation",
+   "pk": 4,
+   "fields": {
+      "name": "Dokumentacja SZBHP",
+      "document": "document/r10.pdf"
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 2,
+   "fields": {
+      "name": "Szkolenie Stanowiskowe",
+      "duration": "30 00:00:00",
+      "description": "Standardowe szkolenie stanowiskowe",
+      "documentation": [
+         2,
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 3,
+   "fields": {
+      "name": "Szkolenie Wst\u0119pne",
+      "duration": "00:00:00",
+      "description": "Szkolenie wst\u0119pne dzielimy na:\r\n\r\n    Instrukta\u017c og\u00f3lny\u2013 zapewnia uczestnikom poznanie podstawowych przepis\u00f3w BHP zawartych w Kodeksie Pracy, zasad udzielania pierwszej pomocy ale r\u00f3wnie\u017c regulamin\u00f3w i zasad bezpiecze\u0144stwa i higieny pracy w danym zak\u0142adzie pracy. Instrukta\u017c og\u00f3lny mo\u017ce przeprowadzi\u0107 pracownik s\u0142u\u017cby BHP lub inna osoba dzia\u0142aj\u0105ca na zlecenie pracodawcy pe\u0142ni\u0105ca zadania tej s\u0142u\u017cby.\r\n    Instrukta\u017c stanowiskowy zapewnia uczestnikom zapoznanie si\u0119 z czynnika",
+      "documentation": [
+         1
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 4,
+   "fields": {
+      "name": "Szkolenie okresowe 1",
+      "duration": "1825 00:00:00",
+      "description": "Szkolenie okresowe dla pracownika biurowego",
+      "documentation": [
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 5,
+   "fields": {
+      "name": "Szkolenie okresowe 2",
+      "duration": "1095 00:00:00",
+      "description": "Szkolenie okresowe dla pracownika fizycznego",
+      "documentation": [
+         2
+      ]
+   }
+},
+{
+   "model": "szkolenia.instruction",
+   "pk": 6,
+   "fields": {
+      "name": "SZkolenie okresowe 3",
+      "duration": "365 00:00:00",
+      "description": "Szkolenie okresowe dla pracownika fizycznego maj\u0105cego doczynienia z substancjami niebezpieczbymi",
+      "documentation": [
+         4
+      ]
+   }
+}
+]

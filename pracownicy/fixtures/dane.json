@@ -1,0 +1,168 @@
+[
+{
+   "model": "pracownicy.course",
+   "pk": 2,
+   "fields": {
+      "instruction": 2,
+      "date_of_instruction": "2017-01-01",
+      "next_instruction": "2017-02-01"
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 3,
+   "fields": {
+      "instruction": 2,
+      "date_of_instruction": "2017-02-02",
+      "next_instruction": "2022-02-02"
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 4,
+   "fields": {
+      "instruction": 4,
+      "date_of_instruction": "2012-02-02",
+      "next_instruction": "2017-02-02"
+   }
+},
+{
+   "model": "pracownicy.course",
+   "pk": 5,
+   "fields": {
+      "instruction": 5,
+      "date_of_instruction": "2014-02-02",
+      "next_instruction": "2017-02-02"
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 1,
+   "fields": {
+      "user": 1,
+      "Name": "Sebastian",
+      "Surname": "Pucha\u0142a",
+      "PESEL": "92100401519",
+      "course": [
+         2
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 2,
+   "fields": {
+      "user": 2,
+      "Name": "Korneliusz",
+      "Surname": "\u0141ukasiak",
+      "PESEL": "93041520193",
+      "course": [
+         2
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 3,
+   "fields": {
+      "user": 2,
+      "Name": "Magdalena",
+      "Surname": "Kocyba",
+      "PESEL": "93041808504",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 4,
+   "fields": {
+      "user": 2,
+      "Name": "Hubert",
+      "Surname": "Matysiak",
+      "PESEL": "12129322222",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 5,
+   "fields": {
+      "user": 2,
+      "Name": "Jan",
+      "Surname": "Kowalski",
+      "PESEL": "56984266246",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 6,
+   "fields": {
+      "user": 1,
+      "Name": "Adam",
+      "Surname": "Nowak",
+      "PESEL": "44541565821",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 7,
+   "fields": {
+      "user": 2,
+      "Name": "Anna",
+      "Surname": "Nowak",
+      "PESEL": "21569547863",
+      "course": [
+         3
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 8,
+   "fields": {
+      "user": 2,
+      "Name": "Jan",
+      "Surname": "Kowalik",
+      "PESEL": "13018722233",
+      "course": [
+         4
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 9,
+   "fields": {
+      "user": 2,
+      "Name": "Janina",
+      "Surname": "Zupa",
+      "PESEL": "09128847472",
+      "course": [
+         5
+      ]
+   }
+},
+{
+   "model": "pracownicy.worker",
+   "pk": 10,
+   "fields": {
+      "user": 2,
+      "Name": "Irmina",
+      "Surname": "Blumstein",
+      "PESEL": "85021897357",
+      "course": [
+         3
+      ]
+   }
+}
+]

@@ -1,0 +1,139 @@
+[
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 1,
+   "fields": {
+      "name": "R\u0119kawiczki",
+      "count": 5,
+      "exp_date": "2017-03-09"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 2,
+   "fields": {
+      "name": "Buty",
+      "count": 4,
+      "exp_date": "2017-02-01"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 3,
+   "fields": {
+      "name": "Gogle ochronne",
+      "count": 300,
+      "exp_date": "2019-05-02"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 4,
+   "fields": {
+      "name": "Fartuch ochronny",
+      "count": 70,
+      "exp_date": "2050-02-02"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 5,
+   "fields": {
+      "name": "Zatyczki do uszu",
+      "count": 5000,
+      "exp_date": "2019-09-02"
+   }
+},
+{
+   "model": "artykuly_bhp.produkty",
+   "pk": 6,
+   "fields": {
+      "name": "Spodnie robocze",
+      "count": 3,
+      "exp_date": "2020-02-02"
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 1,
+   "fields": {
+      "who": 1,
+      "when": "2017-01-31",
+      "what": [
+         1
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 2,
+   "fields": {
+      "who": 2,
+      "when": "2017-02-01",
+      "what": [
+         1,
+         2
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 3,
+   "fields": {
+      "who": 2,
+      "when": "2017-02-01",
+      "what": [
+         1
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 4,
+   "fields": {
+      "who": 1,
+      "when": "2017-02-02",
+      "what": [
+         1
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 5,
+   "fields": {
+      "who": 6,
+      "when": "2017-02-02",
+      "what": [
+         3
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 6,
+   "fields": {
+      "who": 3,
+      "when": "2017-02-02",
+      "what": [
+         6
+      ]
+   }
+},
+{
+   "model": "artykuly_bhp.przydzial",
+   "pk": 7,
+   "fields": {
+      "who": 10,
+      "when": "2017-02-02",
+      "what": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6
+      ]
+   }
+}
+]
