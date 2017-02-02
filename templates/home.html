@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+          <h2 class="sub-header">Braki produktów:</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Nazwa produktu</th>
+                  <th>Pozostałe sztuki</th>
+                  <th>Termin ważności</th>
+                </tr>
+              </thead>
+              {% for alert in object_list %}
+              <tbody>
+              {% for braki in alert.braki_magazynowe.all %}
+                <tr>
+                    {% if braki.count < 5 %}
+                    <td>{{ braki.name }}</td>
+                    <td>{{ braki.count}}</td>
+                    <td>{{ braki.exp_date }}</td>
+                    {% endif %}
+                </tr>
+              {% endfor %}
+              </tbody>
+                {% endfor %}
+            </table>
+          </div>
+
+          <h2 class="sub-header">Zbliżające się szkolenia:</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Pracownik</th>
+                  <th>PESEL</th>
+                  <th>Następne szkolenie</th>
+                  <th>Data następnego szkolenia</th>
+                </tr>
+              </thead>
+              {% for alert in object_list %}
+              <tbody>
+              {% for szkolenia in alert.nadchodzace_szkolenia.all %}
+                <tr>
+                    <td>{{ szkolenia.Name }} {{ szkolenia.Surname }}</td>
+                    <td>{{ szkolenia.PESEL }}</td>
+                    {% for nastepne in szkolenia.course.all %}
+                    {% now "Y m d" as current_date %}
+                    {% if nastepne.next_instruction|date:"Y m d" <= current_date %}
+                    <td><b>{{ nastepne.instruction }}</b></td>
+                    <td><b>Wymagane szkolenie pracownika</b></td>
+                    {% else %}
+                    <td>{{ nastepne.instruction }}</td>
+                    <td>{{ nastepne.next_instruction }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+              {% endfor %}
+              </tbody>
+                {% endfor %}
+            </table>
+          </div>
+
+
+
+        </div>
+      </div>
+
+{% endblock %}

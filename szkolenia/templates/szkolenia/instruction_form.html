@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load widget_tweaks %}
+<h1 align="center">Dodaj szkolenie:</h1>
+<div class="row">
+    <form method="POST" action=""> {% csrf_token %}
+    <div class="form-group col-md-4 col-md-offset-4">
+
+        <h2 align="center">Nazwa szkolenia</h2>
+        {% render_field form.name class="form-control" %}
+        <h2 align="center">Ważność szkolenia</h2>
+        {% render_field form.duration class="form-control" placeholder="ddd gg:mm:ss" %}
+        <h2 align="center">Opis</h2>
+        {% render_field form.description class="form-control" %}
+        <h2 align="center">Dokumentacja <a href="{% url 'szkolenia:documentation_add' %}" class="btn btn-info" role="button" target="_new"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> </a></h2>
+        {% render_field form.documentation class="form-control" %}
+        <br>
+        <input type='submit' value="Dodaj" class='btn btn-success btn-block' />
+    </div>
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load widget_tweaks %}
+
+<div class="row">
+
+    <div class="col-md-12">
+        <h2 class="sub-header">Lista szkoleń: <a href="{% url 'szkolenia:instruction_add' %}" class="btn btn-success" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true">Dodaj</span> </a></h2>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Nazwa szkolenia</th>
+                      <th>Termin ważności</th>
+                      <th>Dokumentacja</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% for szkolenie in object_list %}
+                    <tr>
+                        <td><a href="{% url 'szkolenia:instruction_detail' szkolenie.id %}"> {{ szkolenie.name }}</a></td>
+                        <td>{{ szkolenie.duration }}</td>
+                        <td>{% for document in szkolenie.documentation.all %}
+                        {{ document.name }}{% if not forloop.last %},{% endif %}
+                        {% endfor %}</td>
+                        <td><a href="{% url 'szkolenia:instruction_delete' szkolenie.id %}" class="btn btn-danger" role="button">Usuń</a>
+                        <a href="{% url 'szkolenia:instruction_update' szkolenie.id %}" class="btn btn-primary" role="button">Zmień</a></td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+    </div>
+</div>
+
+
+{% endblock %}

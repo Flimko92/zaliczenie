@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load widget_tweaks %}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+
+        <form method="get">
+            <div class="well">
+              <h4 style="margin-top: 0">Filter</h4>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  Nazwa produktu
+                  {% render_field filter.form.name class="form-control" %}
+                </div>
+                <div class="form-group col-md-6">
+                  Data ważności
+                  {% render_field filter.form.exp_date class="form-control" %}
+                </div>
+                <div class="form-group col-md-6">
+                  Ilość produktów większa niż:
+                  {% render_field filter.form.count__gt class="form-control" %}
+                </div>
+                <div class="form-group col-md-6">
+                  Ilość produktów mniejsza niż:
+                  {% render_field filter.form.count__lt class="form-control" %}
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span class="glyphicon glyphicon-search"></span> Filtruj
+              </button>
+            </div>
+        </form>
+
+    </div>
+    <div class="col-md-12">
+        <h2 class="sub-header">Lista produktów: <a href="{% url 'artykuly_bhp:product_add' %}" class="btn btn-success" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true">Dodaj</span> </a></h2>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Nazwa produktu</th>
+                      <th>Pozostałe sztuki</th>
+                      <th>Termin ważności</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% for produkt in filter.qs %}
+                    <tr>
+                        <td>{{ produkt.name }}</td>
+                        <td><a href="{% url 'artykuly_bhp:ilosc_update' produkt.id %}" class="btn btn-default" role="button">{{ produkt.count}}</a></td>
+                        <td>{{ produkt.exp_date }}</td>
+                        <td><a href="{% url 'artykuly_bhp:product_delete' produkt.id %}" class="btn btn-danger" role="button">Usuń</a>
+                        <a href="{% url 'artykuly_bhp:product_update' produkt.id %}" class="btn btn-primary" role="button">Zmień</a></td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -1,6 +1,10 @@
 Django==1.10.5
 argparse==1.2.1
 django-allauth==0.30.0
+django-bootstrap3==8.1.0
+django-crispy-forms==1.6.1
+django-filter==1.0.1
+django-widget-tweaks==1.4.1
 oauthlib==2.0.1
 python-openid==2.2.5
 requests==2.13.0

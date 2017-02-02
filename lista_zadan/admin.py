@@ -1,3 +1,8 @@
+# coding: utf-8
 from django.contrib import admin
+from models import alert
 
-# Register your models here.
+class AlertAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(alert, AlertAdmin)

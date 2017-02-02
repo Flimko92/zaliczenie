@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load widget_tweaks %}
+
+<div class="row">
+    <form method="POST" action=""> {% csrf_token %}
+    <div class="form-group col-md-4 col-md-offset-4">
+
+        <h2 align="center">Zmień ilość produktu</h2>
+        {% render_field form.count class="form-control" %}
+        <br>
+        <input type='submit' value="Nowa wartość" class='btn btn-success btn-block' />
+    </div>
+    </form>
+</div>
+
+{% endblock %}

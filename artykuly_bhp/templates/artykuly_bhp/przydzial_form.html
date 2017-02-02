@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load widget_tweaks %}
+<h1 align="center">Wydaj środek ochrony indywidualnej</h1>
+<div class="row">
+    <form method="POST" action=""> {% csrf_token %}
+    <div class="form-group col-md-4 col-md-offset-4">
+
+        <h2 align="center">Dla kogo</h2>
+        {% render_field form.who class="form-control" %}
+        <br>
+        <h2 align="center">Co wydać</h2>
+        {% render_field form.what class="form-control" %}
+        <br>
+        <input type='submit' value="Wydaj produkt" class='btn btn-success btn-block' />
+    </div>
+    </form>
+</div>
+
+{% endblock %}
