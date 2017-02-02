@@ -1,0 +1,35 @@
+Witamy w dokumentacji aplikacji zaliczeniowej BHP
+
+Wymagania:
+
+python wersja = 2.7***
+virtualenv
+pip
+
+Jak rozpocząć:
+
+Ściągnij aplikacje
+git clone https://github.com/Flimko92/zaliczenie.git
+
+Stwórz virtualenv o nazwie Zaliczenie
+
+szczegółowe informacje jak stworzyć virtualenv pod linkiem:
+http://virtualenvwrapper.readthedocs.io/en/latest/install.html
+
+Na virtualnym środowisku wykonaj polecenie
+pip install -r requirment.txt
+
+Następnie stwórz baze danych:
+python manage.py migrate
+
+Załadowywanie danych do bazy
+
+Najpierwsz komenda:
+python manage.py loaddata --app auth bhp/fixtures/dane.json
+
+login: Kornel hasło: knot1234
+
+a następnie:
+python manage.py loaddata dane.json
+
+
